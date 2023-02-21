@@ -38,7 +38,7 @@ tag:
 | 动态范围 | 82dB |
 | 天线 | 50 欧姆 SMA 母头<br/>高阻 SMA 母头（ DSP2 或 DSP1 加装选装板）<br/>偏置三通（ DSP2 ）<br/>内置前置放大器 |
 | 电源 | 内置 6000mAH（ 飞鱼版 ）|
-| 软件特色 | 可调滤波器带宽<br/>自适应降噪（ NR ）<br/>阈值降噪<br/>噪声消除器( NB )<br/>自动增益控制( AGC )<br/>自动陷波滤波器( ANF )<br/>支持RDS的立体声FM<br/>模拟立体声<br/>均衡器 |
+| 软件特色 | 可调滤波器带宽<br/>自适应降噪（ NR ）<br/>阈值降噪<br/>噪声抑制（ NB ）<br/>自动增益控制（ AGC ）<br/>自动陷波滤波器（ ANF ）<br/>支持 RDS 的立体声 FM<br/>模拟立体声<br/>均衡器 |
 | 硬件特色 | STM32H743 ARM CPU at 480MHz<br/>MSi001 多波段、多模式调谐器<br/>3.5 寸 480x320 LCD 显示屏<br/>电容式触摸屏<br/>两个机械编码器 |
 
 ## 开始使用
@@ -123,7 +123,7 @@ tag:
 | 符号 | 含义 |
 | - | - |
 | SQL | 绿色表示已开启静噪，并且当前已触发静噪<br/>红色表示已开启静噪，但当前并未触发 |
-| NB | 噪音消除器已启用 |
+| NB | 噪声抑制已启用 |
 | NR | 自适应降噪已启用 |
 | AGC-S | 自动增益控制状态 |
 | ANT | 绿色表示启用了 Hi-Z 天线<br/>红色表示启用了天线供电（ 偏置三通，DSP2 独占 ）|
@@ -255,7 +255,57 @@ MSI001 芯片的宽频正交混频器的信号增益。增加此值以放大输�
 
 ![the-audio-menu-cn](/assets/images/malahiteam/the-audio-menu-cn.png)
 
-The AUDIO menu lets you configure various sound characteristics, such as filtering, gain, noise reduction, noise blanking, and squelch. Touch a menu item to select it. If an item has more than two different values, rotate the larger knob to change between these values. To exit the menu, touch the AUDIO button again. This menu contains the following sections.
+AUDIO 菜单可以让你调整各种与声音相关的特性，例如：过滤、增益、降噪、消噪和静噪。
+
+点击 AUDIO 图标可以打开菜单，再次点击 AUDIO 图标可以退出菜单。
+
+点击对应的功能图标可以启用或关闭该功能，如果某个功能包含两个以上的选项，可以先点击该功能图标，然后旋转机身右侧下方频率调谐旋钮来改变参数。
+
+下面我们来逐个介绍菜单里面的具体功能：
+
+### 噪声抑制 (NB)
+噪声抑制功能是用来消除传入的音频噪声。你可以通过点击 NB 图标来启用或停用这个功能。
+
+阈值（ Threshold ）设置触发等级，不建议将其设置在 3 以下。
+
+配置选项（ Config ）在几种不同的消音配置之间切换。
+
+两个参数都取决于你要抑制的噪声类型，因此需要用耳朵来判断。
+
+### 自动增益控制 (AGC)
+自动增益控制功能是用来自动调整音频放大增益的。
+
+你可以通过 AGC MODE 选项在三种不同的 AGC 模式中选择。
+
+AGC GAIN 值控制应用多少放大功能。
+
+AGC LIM 值设置自动增益控制的截止限制。
+
+### 滤波 (FILTER)
+滤波器选项提供了三种不同的音频滤波器宽度：正常、宽和窄，这与屏幕右上角显示的数值相同。它也可以用机身右侧上方音量调节旋钮来改变。
+
+Low freq 和 High freq 用于设置那些频率的声音可以通过。
+
+### 静噪 (SQL)
+当静噪功能启用时，如果声音的电平低于某个阈值，将自动静音（ 关闭喇叭输出 ），这个阈值是通过 SQL Threshold 选项控制的。
+
+屏幕上方的红色 SQL 图标表示静噪功能已经启用且自动静音中。一旦声音水平超过阈值，静噪就会打开，SQL 图标变成绿色。
+
+### 自适应降噪 (NR)
+NR 阈值规定了应用降噪的声级。
+
+### 自动陷波滤波器 (ANF)
+自动陷波滤波器允许在使用 LSB 或 USB 调制时抑制载波音。对于其他调制类型，这个自动陷波滤波器会被禁用。要切换该滤波器请点击 ANF 图标。
+
+### 调频广播设置
+剩下的两个功能与 FM 广播接收有关。
+
+EQ TYPE 选项选择应用于 FM 广播的均衡器类型。
+
+WFM stereo 选项可以启用 FM 立体声。请注意，如果你想看到 FM 广播公司传送的 RDS 文本信息或自动扫描 FM 频段的电台，你必须启用 FM 立体声。
+
+### 伪立体声
+PseudoStereo 图标可以从单声道声音中模拟立体声。由于显而易见的原因（ 内置喇叭数量不足 ），它只在通过耳机收听时有用。在收听使用 WFM 调制的 FM 广播电台时，伪立体声模式被禁用。
 
 ## 视觉菜单（ VISUAL ）
 
