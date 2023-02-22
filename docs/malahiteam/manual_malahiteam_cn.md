@@ -500,9 +500,73 @@ BAND 菜单用于保存和读取收音机的设置。
 
 敬请期待。
 
-## 孔雀石收音机连接到电脑使用
+## 将孔雀石收音机连接到电脑使用
 
-敬请期待。
+以下说明假设您将孔雀石收音机连接到运行微软 Windows 10 或类似操作系统的电脑上。Windows 10 应该具有与孔雀石收音机连接所需的所有驱动程序，因此不需要任何第三方驱动程序。
+
+你将需要一条 Micro USB 线来连接孔雀石收音机和电脑，请确保你的 Micro USB 线支持数据传输（ 有些劣质线仅支持充电 ）。
+
+一旦你将孔雀石收音机连接到 PC 上任何可用的 USB 口，并打开收音机，你应该在 Windows 设备管理器面板上看到以下三个新的 USB 设备：
+
+- **Malahit RX**
+
+这是一个音频输入设备，将孔雀石收音机的声音输入电脑，你可以像使用普通麦克风设备一样使用它。
+
+---
+
+- **Malahit IQ**
+
+这个设备也被当作一种「音频输入」，但它输入的的是整个 192kHz 的频谱数据。你可以将这个设备与各种 SDR 软件（ 如 HDSDR、SDR++ 或 SDR# ）配合使用，接收和处理与孔雀石收音机相同的频谱数据。
+
+---
+
+- **Malahit CAT**
+
+这是 USB 串口模式，你可以用电脑更改孔雀石收音机的频率、调制方式、音量和其他参数。孔雀石收音机使用的命令集与建伍 TS-480 的命令集兼容。
+
+---
+
+当你在 Windows 设备管理器面板上看见了「Malahit USB」，记得进入 Windows 声音控制面板，确保「Malahit RX」和「Malahit IQ」音频输入已启用。
+
+### VERIFYING CONNECTION WITH HDSDR
+
+Now, let us verify the receiver functionality with the popular HDSDR application for Windows, by following these steps:
+
+1. Install and run the HDSDR software. 
+2. Select "Options | Select Input | Sound Card", since the receiver acts as a sound card device. 
+3. Click on "Soundcard" and select "Malahit IQ" in the "RX input (from Radio)" box. 
+4. Click "Ok" to confirm your choice. 
+
+At this point, the HDSDR should show the same panorama and waterfall displays as your receiver. Use the receiver controls to tune the frequency. 
+
+### CONTROLLING RECEIVER FROM A COMPUTER
+
+Now, let us verify the receiver functionality with the popular HDSDR application for Windows, by following these steps:
+
+1. Install and run the HDSDR software. 
+2. Select "Options | Select Input | Sound Card", since the receiver acts as a sound card device. 
+3. Click on "Soundcard" and select "Malahit IQ" in the "RX input (from Radio)" box. 
+4. Click "Ok" to confirm your choice. 
+
+At this point, the HDSDR should show the same panorama and waterfall displays as your receiver. Use the receiver controls to tune the frequency. 
+
+To tune the receiver frequency from a computer, you will need to interface the OmniRig software with the "Malahit CAT" USB device. 
+
+1. Go into Windows Device Manager and find what COM-port device your "Malahit CAT" is associated with. This can be done by disconnecting and reconnecting the Malahit receiver. One of the COM-port entries underneath the "COM & LPT" branch should disappear and then reappear. That will be your COM-port device. It may change if you reconnect the receiver to a different USB socket.
+2. Install and run the OmniRig. In the OmniRig window, configure "RIG 1" as follows and confirm your changes by clicking "Ok". 
+3. Rig Type = TS-480
+4. Port = ``<your COM-port>``
+5. Baud Rate = 19200
+6. Dara Bits = 8
+7. Parity = None
+8. Stop Bits = 1
+9. RTS = High
+10. DTR = High
+11. Poll = 500
+12. Timeout = 4000
+13. In the HDSDR, select "Options | CAT to Radio | Sync RIG1", enable "Use v1", "Sync to Rig", "Sync from Rig", "Sync LO Frequency", and "Sync Modulation" in the same menu.
+
+You should now be able to control Malahit receiver by changing frequency and other settings in the HDSDR software.
 
 ## 处理内部干扰
 
