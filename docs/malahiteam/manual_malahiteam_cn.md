@@ -321,7 +321,7 @@ Low freq 和 High freq 用于设置那些频率的声音可以通过。
 NR 阈值规定了应用降噪的声级。
 
 ::: info 译者注
-孔雀石收音机支持 30 级可调降噪功能，让原本在城市中听起来非常难受的短波广播变的可以听下去。
+孔雀石收音机支持 30 级可调降噪功能，让原本在城市中听起来非常难受的短波广播变的可以轻松听下去。
 
 点击改功能图标，然后旋转机身右侧下方频率调谐旋钮即可更改。
 :::
@@ -343,7 +343,51 @@ PseudoStereo 图标可以从单声道声音中模拟立体声。由于显而易�
 
 ![the-visual-menu-cn](/assets/images/malahiteam/the-visual-menu-cn.png)
 
-The VISUAL menu lets you configure panorama and waterfall displays, changing their sensitivity, color scheme, and other settings. Touch a menu item to select it. If an item has more than two different values, rotate the larger knob to change between these values. To exit the menu, touch the VISUAL button again. This menu contains the following items.
+VISUAL 菜单可以让你配置频谱图和瀑布图的显示，改变它们的灵敏度、颜色方案和其他设置。
+
+点击 VISUAL 图标可以打开菜单，再次点击 VISUAL 图标可以退出菜单。
+
+点击对应的功能图标可以启用或关闭该功能，如果某个功能包含两个以上的选项，可以先点击该功能图标，然后旋转机身右侧下方频率调谐旋钮来改变参数。
+
+下面我们来逐个介绍菜单里面的具体功能：
+
+### 屏幕设置
+常规的屏幕亮度是由 BRIGHT MAX 控制的。如果屏幕在 REDUCT TIME 秒内不动，它将降低亮度至 BRIGHT MIN 值。
+
+如果你启用了 LCD SLEEP 选项，在收音机静置若干秒后，屏幕将关闭，但收音机将继续工作，一旦你触摸它或任何一个旋钮，屏幕将重新开启。
+
+### 瀑布图设置
+WF GAMMA 选项可以为瀑布选择几种不同的颜色方案。
+
+WF Gain 值可以使瀑布对较弱的信号更加敏感，但代价是显示更多的噪声。
+
+最后，WF delay 值控制瀑布的速度。
+
+### 频谱图设置
+FFT color 选项可以选择全景图的颜色。
+
+FFT scale 值决定了全景的灵敏度。
+
+频谱图与瀑布图所占的屏幕比例由 Pan percent 值控制。
+
+最后，FFT fill 选项可以在普通频谱图风格和填充频谱图风格之间进行切换。
+
+### 禁用瀑布图和频谱图
+为了减少屏幕的干扰，你可能想通过改变 View Pan 和 WF 选项来禁用瀑布图和频谱图的显示。
+
+在禁用瀑布图和频谱图的情况下，屏幕只在你改变频率或其他设置时才会更新，这也适用于电平表。
+
+### 直流电压抑制
+为了正确的操作，收音机抑制了频谱图中 0Hz 偏移处的直流（ DC ）信号分量。
+
+虽然直流分量不影响信号接收，但它可能会在频谱图的死角处显示出一个尖峰。
+
+直流拒绝值控制抑制强度。设置得太高可能会在频谱图中心产生一个「缺口」。
+
+### FM 刻度选择器
+孔雀石收音机带有一个单独的复古风格的调频广播视图，类似于老式短波收音机（ 指针机 ）的前面板。
+
+虽然广播制式将在本文后面讨论，但 FM 波段的分配在不同国家是略有不同的。广播制式选项可以在欧洲和日本的 FM 波段之间进行切换。
 
 ## 模式菜单（ MODE ）
 
