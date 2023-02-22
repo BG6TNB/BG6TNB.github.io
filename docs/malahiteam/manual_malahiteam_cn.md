@@ -393,7 +393,56 @@ FFT scale 值决定了全景的灵敏度。
 
 ![the-mode-menu](/assets/images/malahiteam/the-mode-menu.png)
 
-The MODE menu lets you change current modulation mode (displayed at the top of the screen), as well as enable the CW decoder feature. Touch a menu item to select it. If an item has more than two different values, rotate the larger knob to change between these values. To exit the menu, touch the MODE button again. This menu contains the following items:
+MODE 菜单让你改变当前的调制模式（ 显示在屏幕的顶部 ），以及启用 CW 解码器功能。
+
+点击 MODE 图标可以打开菜单，再次点击 MODE 图标可以退出菜单。
+
+点击对应的功能图标可以启用或关闭该功能，如果某个功能包含两个以上的选项，可以先点击该功能图标，然后旋转机身右侧下方频率调谐旋钮来改变参数。
+
+下面我们来逐个介绍菜单里面的具体功能：
+
+### WFM - 宽带调频
+宽带调频模式，常见于调频广播商业电台。当使用 WFM 调制时，WFM BW 选项可以在正常带宽和窄带宽之间进行选择。如果你遇到相邻的 FM 广播干扰，请调整 WFM BW 选项为窄带宽。
+
+### NFM - 窄带调频
+窄带频调模式，常用于警察和应急无线电。业余无线电操作员在 VHF（ 144-148MHz ）和 UHF（ 430-440MHz ）频段工作时也使用这种模式。
+
+### AM - 调幅模式
+调幅模式，常见于商业广播电台在 LW（ 长波 ）、MW（ 中波 ）和 SW（ 短波 ）频段使用，以及海员、飞行员和 ATC（ 空中交通管制 ）之间进行通讯。
+
+当使用 AM 调制时，AM det 选项可以选择 AM 解调器的类型。
+
+- 经典振幅检测器（ MAG ）
+- 同步振幅检测器（ SAM ）
+- 上边带同步振幅检测器（ SAMU ）
+- 下边带同步振幅检测器（ SAML ）
+
+虽然 MAG 是安全的默认选择，但如果 AM 信号太弱或被附近的信号挤占，你可能想改用不同的解调器。
+
+### LSB - 下边带
+下边带，常用于 160M、80M 和 40M 频段的业余无线电操作员。
+
+### USB - 上边带
+业余无线电操作员在 20M 和更高频段工作时常用上边带。
+
+::: info 译者注
+LSB 和 USB 通常在中波、短波和 6M（ 50-54MHz ）的业余频段使用，另外上面的规则常见于语音模式，如果是现在流行的数字模式（ FT8、VarAC 等），无论在短波什么波段，通常都是 USB 模式。
+:::
+
+### DSB - 双边带
+该选项与 LSB 或 USB 结合使用时，将自动选择信号电平较高的边带。
+
+### CW - 摩尔斯电码
+该选项与 LSB 或 USB 结合使用时，将音频滤波器缩小到 1kHz 的宽度，对于收听和解码摩尔斯电码（ CW ）的传输很有用。
+
+屏幕上方的 LSB/USB 图标将分别变为 CWL/CWU。
+
+这个选项与降噪（ NR ）功能不兼容! 
+
+### Decoder - CW 解码器
+启用后，CW 解码器将尝试解码摩尔斯电码（ CW ）的传输，并在频谱图下方显示。
+
+信噪比（ SNR ）在 29 左右可以获得最佳的解码性能。为了进一步改善 CW 解码，你可能想启用 CW 选项并禁用降噪（ NR ）。
 
 ## 波段菜单（ BAND ）
 
