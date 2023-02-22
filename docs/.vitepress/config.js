@@ -2,6 +2,13 @@ export default {
     lang: 'zh-CN',
     title: 'BG6TNB',
     description: '一名业余无线电爱好者、穿越机飞手，不定期翻译国外的优秀文章或原创内容。',
+    head: [
+        ['script', {
+            async: true,
+            'X-Content-Type-Options': 'nosniff',
+            src: 'https://hm.baidu.com/hm.js?79bbcd8ef541b101c2c353b8efddc38d'
+        }]
+    ],
     themeConfig: {
         siteTitle: 'BG6TNB',
         sidebar: {
