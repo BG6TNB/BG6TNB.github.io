@@ -39,7 +39,7 @@ tag:
 | 天线 | 50 欧姆 SMA 母头<br/>高阻 SMA 母头（ DSP2 或 DSP1 加装选装板）<br/>偏置三通（ DSP2 ）<br/>内置前置放大器 |
 | 电源 | 内置 6000mAH（ 飞鱼版 ）|
 | 软件特色 | 可调滤波器带宽<br/>降噪（ NR ）<br/>阈值降噪<br/>噪声抑制（ NB ）<br/>自动增益控制（ AGC ）<br/>自动陷波滤波器（ ANF ）<br/>支持 RDS 的立体声 FM<br/>模拟立体声<br/>均衡器 |
-| 硬件特色 | STM32H743 ARM CPU at 480MHz<br/>MSi001 多波段、多模式调谐器<br/>3.5 寸 480x320 LCD 显示屏<br/>电容式触摸屏<br/>两个机械编码器 |
+| 硬件特色 | STM32H743 ARM CPU at 480MHz<br/>MSi001 多频段、多模式调谐器<br/>3.5 寸 480x320 LCD 显示屏<br/>电容式触摸屏<br/>两个机械编码器 |
 
 ## 开始使用
 
@@ -99,7 +99,7 @@ tag:
 
 **禁用屏幕触摸功能**
 
-按住机身右侧上方音量调节旋钮几秒钟，将禁用触摸屏的触摸功能，这会减少短波波段上的干扰。
+按住机身右侧上方音量调节旋钮几秒钟，将禁用触摸屏的触摸功能，这会减少短波频段上的干扰。
 
 此时你仍然可以通过上下两个旋钮来操作孔雀石收音机。再次按下音量调节旋钮几秒钟将重新启用触摸功能。
 
@@ -322,9 +322,9 @@ Low freq 和 High freq 用于设置那些频率的声音可以通过。
 ::: info 译者注
 这个功能对应传统收音机上面的带宽调节，虽然看起来只有三个档，但是你其实可以调整每个档位的实际带宽，只需要调整 High freq 这个选项即可，先点击该选项然后旋转机身右侧下方的频率调节旋钮。
 
-在中波、短波波段（ 调频广播波段是看不见的，因为带宽有 150K 这么大 ），你可以看见音频滤波器的带宽，垂直红色竖线两侧会有白色的区域便是当前带宽的大小。将 High freq 修改为 5500 就对应传统收音机的 5.5K 依此类推。
+在中波、短波频段（ 调频广播频段是看不见的，因为带宽有 150K 这么大 ），你可以看见音频滤波器的带宽，垂直红色竖线两侧会有白色的区域便是当前带宽的大小。将 High freq 修改为 5500 就对应传统收音机的 5.5K 依此类推。
 
-德生收音机内置的几个带宽我记得是 3K、6K、10K 你可以参考此带宽，业余波段 SSB 模式推荐使用 2.4K 的带宽。
+德生收音机内置的几个带宽我记得是 3K、6K、10K 你可以参考此带宽，业余频段 SSB 模式推荐使用 2.4K 的带宽。
 
 最后是如何快速切换滤波器档位，顶部状态栏右侧有三个图标是蓝色的，分别是 ATT、音量和滤波器宽度，你可以通过点击机身右侧上方的音量调节旋钮来切换想要调节的功能，选中的功能下方会有白色横线，然后你就可以通过旋转音量调节旋钮来快速改变数值。
 :::
@@ -359,7 +359,7 @@ NR 阈值规定了应用降噪的声级。
 
 EQ TYPE 选项选择应用于 FM 广播的均衡器类型。
 
-WFM stereo 选项可以启用 FM 立体声。请注意，如果你想看到 FM 广播公司传送的 RDS 文本信息或自动扫描 FM 频段的电台，你必须启用 FM 立体声。
+WFM stereo 选项可以启用 FM 立体声。请注意，如果你想看到 FM 广播公司传送的 RDS 文本信息或自动扫描 FM 广播频段的电台，你必须启用 FM 立体声。
 
 ### 伪立体声
 
@@ -415,11 +415,11 @@ FFT scale 值决定了全景的灵敏度。
 
 直流拒绝值控制抑制强度。设置得太高可能会在频谱图中心产生一个「缺口」。
 
-### FM 刻度盘
+### FM 频率刻度表
 
-孔雀石收音机带有一个单独的复古风格的调频广播视图，类似于老式短波收音机（ 指针机 ）的前面板。
+孔雀石收音机带有一个独立的的复古风格的调频广播频率刻度表，类似于老式短波收音机（ 指针机 ）的前面板。
 
-虽然广播制式将在本文后面讨论，但 FM 波段的分配在不同国家是略有不同的。广播制式选项可以在欧洲和日本的 FM 波段之间进行切换。
+虽然广播制式（ Retro scale ）将在本文后面讨论，但 FM 广播频段的分配在不同国家是略有不同的。广播制式选项可以在欧洲或日本的 FM 广播频段之间进行切换。
 
 ## 模式菜单（ MODE ）
 
@@ -463,7 +463,7 @@ MODE 菜单让你改变当前的调制模式（ 显示在屏幕的顶部 ），�
 业余无线电操作员在 20M 和更高频段工作时常用上边带。
 
 ::: info 译者注
-LSB 和 USB 通常在中波、短波和 6M（ 50-54MHz ）的业余频段使用，另外上面的规则常见于语音模式，如果是现在流行的数字模式（ FT8、VarAC 等），无论在短波什么波段，通常都是 USB 模式。
+LSB 和 USB 通常在中波、短波和 6M（ 50-54MHz ）的业余频段使用，另外上面的规则常见于语音模式，如果是现在流行的数字模式（ FT8、VarAC 等），无论在短波什么频段，通常都是 USB 模式。
 :::
 
 ### DSB - 双边带
@@ -495,7 +495,7 @@ BAND 菜单用于保存和读取收音机的设置。
 ::: info 译者注
 这是个非常实用的功能，类似于传统收音机的储存模式，但和传统收音机不同的是，孔雀石收音机除了可以储存频率之外还可以储存其他设置。
 
-例如在短波波段和调频广播波段，需要的调制模式、旋钮步进、降噪等级、带宽、等等之类的设置都不同，若每次切换都要手动调节这些属实是有些麻烦，好在孔雀石收音机非常好的解决了这个问题。
+例如在短波频段和调频广播频段，需要的调制模式、旋钮步进、降噪等级、带宽、等等之类的设置都不同，若每次切换都要手动调节这些属实是有些麻烦，好在孔雀石收音机非常好的解决了这个问题。
 :::
 
 **要保存当前设置到一个存储点...**
@@ -536,9 +536,84 @@ BAND 菜单用于保存和读取收音机的设置。
 
 ``BACK`` 图标始终用于返回上一个屏幕。
 
-## FM 刻度盘
+## FM 频率刻度表
 
-敬请期待。
+当使用 WFM 调制的情况下，孔雀石收音机提供了一个频率刻度表界面，类似于老式短波收音机（ 指针机 ）的前面板。
+
+**要进入 FM 频率刻度表...**
+
+1. 将收音机调至 FM 广播频段（ 75-109MHz ）。具体的 FM 广播频段由 ``VISUAL`` 菜单中 ``Retro scale`` 选项设置的区域所决定（ 欧洲或日本 ）。
+2. 在 ``MODE`` 菜单中选择 ``WFM`` 调制类型。
+3. 在瀑布图位置点击两次切换到 FM 频率刻度表，第一次点击会进入 MPX 界面，再次点击中间屏幕下半部分即可。
+
+**进入 FM 频率刻度表之后...**
+
+1. 使用机身右侧下方频率调谐旋钮移动指针。
+2. 点击频率刻度表的下半部分，可以返回频谱图界面。
+3. 点击频率刻度表的上半部分，可以进入频率刻度表菜单。
+
+FM 频率刻度表菜单提供了对 FM 广播电台的添加、编辑和删除操作，它各个按钮的功能如下：
+
+::: info 译者注
+这里可以理解为普通收音机的频道模式，区别于 BAND 菜单，FM 频道模式只保存具体的频率和自定义名称，不会保存收音机的其他设置。
+:::
+
+### 切换用户自定义频率刻度表（ SWITCH USER SCALE ）
+
+收音机提供两套独立的用户自定义刻度表，点击该图标可以在两套刻度表之间切换。
+
+### 更改频率刻度表配色（ CHANGE COLOR ）
+
+切换频率刻度表的配色，通过旋转机身右侧下方频率调谐旋钮或点击相应的颜色样本，选中喜欢的配色后点击 ``SAVE COLOR & EXIT`` 图标确认你的选择，或点击 ``CANCEL`` 图标放弃修改。
+
+### 加载预设（ LOAD PRESET ）
+
+收音机内置了许多城市的广播频率表，这个选项让你可以通过使用机身右侧下方频率调谐旋钮来选择内置的城市广播频率表。
+
+::: warning 警告
+当你选择城市预设后，会覆盖你当前的用户自定义频率刻度表的所有电台。
+:::
+
+### 重命名频率刻度表（ RENAME SCALE ）
+
+重新命名你当前的频率刻度表，旋转机身右侧下方频率调谐旋钮来切换字母，按下频率调谐旋钮确认选择并进入下一个字母的选择。你可以点击 ``CLEAR NAME`` 图标重新输入名称。输入完成后，按 ``SAVE AND EXIT`` 图标确认更改，或按 ``CANCEL`` 图标放弃修改。
+
+### 清空频率刻度表（ CLEAR SCALE ）
+
+此功能可以让你清空当前正在使用的频率刻度表，删除所有广播频点和自定义名称（ 如果有的话 ）。按 ``CLEAR`` 图标确认，或按 ``CANCEL`` 图标保留当前频率刻度表。
+
+### 添加/编辑广播电台（ ADD/EDIT STATION ）
+
+在编辑或添加新电台之前，先使用机身右侧下方频率调谐旋钮调到需要的频率。通过使用触摸屏或频率调谐旋钮选择字母来输入或改变电台名称。输入完成后，按 ``SAVE AND CONTINUE`` 来保存并编辑下一个电台，或者按 ``SAVE AND EXIT`` 保存并返回上级菜单。按 ``DELETE STATION`` 图标可以删除当前选中的电台。最后按 ``CANCEL`` 图标放弃修改。
+
+### 自动搜索（ AUTOSEARCHING ）
+
+自动搜索功能可以自动扫描 FM 广播电台，并将找到的电台自动保存到到当前正在使用的频率刻度表中。
+
+搜索的 FM 广播范围取决于在 ``VISUAL`` 菜单中 ``Retro scale`` 选项设置的地区（ 欧洲或日本 ）。
+
+自动搜索功能使用方法如下：
+
+1. 进入 ``RADIO`` 菜单，确保音频输出选项中已启用耳机输出（ 右上角显示绿色耳机图标 ），当耳机输出被禁用时，自动搜索功能将无法工作。
+2. 进入 ``AUDIO`` 菜单，确保 WFM 立体声选项已启用，如果禁用 WFM 立体声，自动搜索将无法工作。
+3. 点击频率刻度表的上半部分进入频率刻度表菜单，点击 ``AUTOSEARCHING`` 图标。
+
+自动搜索过程中屏幕将显示进度条、已找到的电台数量，以及试验音指示器。自动搜索过程中可以随时点击 ``CANCEL`` 图标退出。
+
+当自动搜索完成时，点击 ``SAVE SCALE & EXIT`` 图标保存电台到当前的用户频率刻度表，或者点击 ``CANCEL`` 图标放弃保存。
+
+::: warning 警告
+自动搜索保存电台会覆盖你当前的用户自定义频率刻度表上的所有电台。
+:::
+
+::: info 译者注
+1. 孔雀石收音机自动搜索速度非常慢，而且自动搜索完成之后，也会出现相邻的假电台，需要手动清除。
+2. 频率刻度表上一旦有已存电台之后，在频率刻度表界面可以通过点击机身右侧下方频率调谐旋钮切换步进为 NEXT，之后就可以通过频率调谐旋钮直接在以保存的电台之间切换了。
+:::
+
+### 返回（ CANCEL ）
+
+退出菜单，返回频率刻度表界面。
 
 ## 将孔雀石收音机连接到电脑使用
 
@@ -568,32 +643,23 @@ BAND 菜单用于保存和读取收音机的设置。
 
 当你在 Windows 设备管理器面板上看见了「Malahit USB」，记得进入 Windows 声音控制面板，确保「Malahit RX」和「Malahit IQ」音频输入已启用。
 
-### VERIFYING CONNECTION WITH HDSDR
+### 验证与 HDSDR 的连接
 
-Now, let us verify the receiver functionality with the popular HDSDR application for Windows, by following these steps:
+通过以下步骤在 Windows 系统上，用 HDSDR 应用程序来验证收音机的功能：
 
-1. Install and run the HDSDR software. 
-2. Select "Options | Select Input | Sound Card", since the receiver acts as a sound card device. 
-3. Click on "Soundcard" and select "Malahit IQ" in the "RX input (from Radio)" box. 
-4. Click "Ok" to confirm your choice. 
+1. 安装并运行 HDSDR 软件。
+2. 依次找到 ``Options | Select Input | Sound Card``。
+3. 点击 ``Soundcard``，在 ``RX input (from Radio)`` 中选择 ``Malahit IQ``。
+4. 点击 ``OK`` 确认。
 
-At this point, the HDSDR should show the same panorama and waterfall displays as your receiver. Use the receiver controls to tune the frequency. 
+完成上述步骤，HDSDR 应该显示与你的收音机相同的频谱图和瀑布图显示。此时你可以使用收音机的旋钮来调整频率。
 
-### CONTROLLING RECEIVER FROM A COMPUTER
+### 从电脑上控制收音机
 
-Now, let us verify the receiver functionality with the popular HDSDR application for Windows, by following these steps:
+要想从电脑上调整收音机频率，你需要将 OmniRig 软件与 ``Malahit CAT`` USB 设备连接起来。
 
-1. Install and run the HDSDR software. 
-2. Select "Options | Select Input | Sound Card", since the receiver acts as a sound card device. 
-3. Click on "Soundcard" and select "Malahit IQ" in the "RX input (from Radio)" box. 
-4. Click "Ok" to confirm your choice. 
-
-At this point, the HDSDR should show the same panorama and waterfall displays as your receiver. Use the receiver controls to tune the frequency. 
-
-To tune the receiver frequency from a computer, you will need to interface the OmniRig software with the "Malahit CAT" USB device. 
-
-1. Go into Windows Device Manager and find what COM-port device your "Malahit CAT" is associated with. This can be done by disconnecting and reconnecting the Malahit receiver. One of the COM-port entries underneath the "COM & LPT" branch should disappear and then reappear. That will be your COM-port device. It may change if you reconnect the receiver to a different USB socket.
-2. Install and run the OmniRig. In the OmniRig window, configure "RIG 1" as follows and confirm your changes by clicking "Ok". 
+1. 进入 Windows 设备管理器，找到与 ``Malahit CAT`` 相关的 COM 端口设备。这可以通过断开和重新连接孔雀石收音机来判断。在 ``COM & LPT`` 下面的一个 COM 端口应该先消失，然后重新出现。这就是你的 COM 端口设备。如果你把收音机重新连接到不同的 USB 口，它可能会改变。
+2. 安装并运行 OmniRig。在 OmniRig 窗口中，对 ``RIG 1`` 进行如下配置，完成后点击 ``OK`` 确认您的更改。
 3. Rig Type = TS-480
 4. Port = ``<your COM-port>``
 5. Baud Rate = 19200
@@ -604,9 +670,9 @@ To tune the receiver frequency from a computer, you will need to interface the O
 10. DTR = High
 11. Poll = 500
 12. Timeout = 4000
-13. In the HDSDR, select "Options | CAT to Radio | Sync RIG1", enable "Use v1", "Sync to Rig", "Sync from Rig", "Sync LO Frequency", and "Sync Modulation" in the same menu.
+13. 在 HDSDR 中，选择 ``Options | CAT to Radio | Sync RIG1``，在同一菜单中启用 ``Use v1``、``Sync to Rig``、``Sync from Rig``、``Sync LO Frequency`` 和 ``Sync Modulation``。
 
-You should now be able to control Malahit receiver by changing frequency and other settings in the HDSDR software.
+现在你应该能够通过改变频率和 HDSDR 软件中的其他设置来控制孔雀石收音机。
 
 ## 处理内部干扰
 

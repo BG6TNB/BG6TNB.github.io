@@ -1,5 +1,6 @@
 ---
 # aside: false
+comments: false
 ---
 
 <!-- # ExpressLRS -->

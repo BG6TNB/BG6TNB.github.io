@@ -7,7 +7,8 @@ export default {
             async: true,
             'X-Content-Type-Options': 'nosniff',
             src: 'https://hm.baidu.com/hm.js?79bbcd8ef541b101c2c353b8efddc38d'
-        }]
+        }],
+        ['script', { src: '/assets/script/disable-piracy.js' }]
     ],
     themeConfig: {
         siteTitle: 'BG6TNB',
