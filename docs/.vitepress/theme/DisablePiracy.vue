@@ -17,4 +17,5 @@
 
 <template>
     <!-- 用于隐藏开发模式下 console 的警告消息 -->
+    <div></div>
 </template>
