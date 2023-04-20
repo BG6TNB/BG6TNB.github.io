@@ -31,7 +31,7 @@ var g = defineComponent({
   setup(e) {
     const t = ref(false);
     return onMounted(() => {
-      t.value = true, import("./giscus-6abec598-X3RTHH7F.js");
+      t.value = true, import("./giscus-a53917f0-JJCRCOKM.js");
     }), (c, m) => t.value ? (openBlock(), createElementBlock("giscus-widget", {
       key: 0,
       id: e.id,

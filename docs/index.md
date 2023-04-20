@@ -3,10 +3,6 @@
 comments: false
 ---
 
-<!-- # ExpressLRS -->
-
-<!-- [ELRS Lua 脚本使用指南（ 官方文档中文翻译 ）](/elrs/lua-howto) -->
-
 # Malahiteam
 
 [孔雀石收音机中文说明书](/malahiteam/manual_malahiteam_cn)
@@ -15,4 +11,10 @@ comments: false
 
 [飞鱼版孔雀石收音机 DSP2 常见问题](/malahiteam/malahiteam-faq)
 
-<!-- [飞鱼版孔雀石收音机 DSP2 玩机感受分享](/malahiteam/malahiteam-dsp2-hfdy) -->
+# HackRF + PortaPack
+
+[PortaPack 往事](/hackrf/portapack-dev-history.md)
+
+# Radio
+
+[FLTSATCOM —— 美国海军上一代 UHF 同步轨道卫星通讯系统](/radio/uhf-satcom-reception.md)

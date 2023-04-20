@@ -13,7 +13,7 @@ tag:
     - FM RDS
 ---
 
-# 孔雀石收音机 FM MPX 界面介绍
+# {{ $frontmatter.title }}
 
 ## 如何进入 FM MPX 界面
 

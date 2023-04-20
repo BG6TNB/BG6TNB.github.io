@@ -1,7 +1,7 @@
 export default {
     lang: 'zh-CN',
     title: 'BG6TNB',
-    description: '一名业余无线电爱好者、穿越机飞手，不定期翻译国外的优秀文章或原创内容。',
+    description: '业余无线电爱好者、穿越机飞手，不定期翻译国外的优秀文章或原创内容。',
     head: [
         ['script', {
             async: true,

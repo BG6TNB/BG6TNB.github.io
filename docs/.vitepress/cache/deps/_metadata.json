@@ -1,17 +1,17 @@
 {
-  "hash": "532002c4",
-  "browserHash": "c81a8ed7",
+  "hash": "74f384cb",
+  "browserHash": "24e2c59e",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "bbe31c14",
+      "fileHash": "0fd39c7d",
       "needsInterop": false
     },
     "@giscus/vue": {
       "src": "../../../../node_modules/@giscus/vue/dist/index.mjs",
       "file": "@giscus_vue.js",
-      "fileHash": "744280ca",
+      "fileHash": "24da7c2f",
       "needsInterop": false
     }
   },
@@ -19,8 +19,8 @@
     "chunk-R647EDCJ": {
       "file": "chunk-R647EDCJ.js"
     },
-    "giscus-6abec598-X3RTHH7F": {
-      "file": "giscus-6abec598-X3RTHH7F.js"
+    "giscus-a53917f0-JJCRCOKM": {
+      "file": "giscus-a53917f0-JJCRCOKM.js"
     }
   }
 }
