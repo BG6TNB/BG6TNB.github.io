@@ -45,7 +45,7 @@ tag:
 
 安装好天线，然后按下机身右侧的电源键，如果顺利的话你会看到下面这样的主界面：
 
-![home-screen](/assets/images/malahiteam/home-screen.png)
+![home-screen](/images/malahiteam/home-screen.png)
 
 从上往下，主界面包含以下部分：
 
@@ -116,7 +116,7 @@ tag:
 
 ## 状态栏和菜单
 
-![home-screen](/assets/images/malahiteam/home-screen.png)
+![home-screen](/images/malahiteam/home-screen.png)
 
 **主界面的顶部是状态栏，里面的图标如果是灰色说明为禁用状态，每个图标具体的含义如下：**
 
@@ -149,9 +149,9 @@ tag:
 
 ## 收音机菜单（ RADIO ）
 
-<!-- ![the-radio-menu](/assets/images/malahiteam/the-radio-menu.png) -->
+<!-- ![the-radio-menu](/images/malahiteam/the-radio-menu.png) -->
 
-![the-radio-menu-cn](/assets/images/malahiteam/the-radio-menu-cn.png)
+![the-radio-menu-cn](/images/malahiteam/the-radio-menu-cn.png)
 
 RADIO 菜单包含所有硬件功能，例如增益、前置放大器、衰减器等。
 
@@ -279,7 +279,7 @@ MSI001 芯片的宽频正交混频器的信号增益。增加此值以放大输�
 
 ## 音频菜单（ AUDIO ）
 
-![the-audio-menu-cn](/assets/images/malahiteam/the-audio-menu-cn.png)
+![the-audio-menu-cn](/images/malahiteam/the-audio-menu-cn.png)
 
 AUDIO 菜单可以让你调整各种与声音相关的特性，例如：过滤、增益、降噪、消噪和静噪。
 
@@ -371,7 +371,7 @@ PseudoStereo 图标可以从单声道声音中模拟立体声。由于显而易�
 
 ## 视觉菜单（ VISUAL ）
 
-![the-visual-menu-cn](/assets/images/malahiteam/the-visual-menu-cn.png)
+![the-visual-menu-cn](/images/malahiteam/the-visual-menu-cn.png)
 
 VISUAL 菜单可以让你配置频谱图和瀑布图的显示，改变它们的灵敏度、颜色方案和其他设置。
 
@@ -427,7 +427,7 @@ FFT scale 值决定了全景的灵敏度。
 
 ## 模式菜单（ MODE ）
 
-![the-mode-menu](/assets/images/malahiteam/the-mode-menu.png)
+![the-mode-menu](/images/malahiteam/the-mode-menu.png)
 
 MODE 菜单让你改变当前的调制模式（ 显示在屏幕的顶部 ），以及启用 CW 解码器功能。
 
@@ -490,7 +490,7 @@ LSB 和 USB 通常在中波、短波和 6M（ 50-54MHz ）的业余频段使用�
 
 ## 频道存储菜单（ BAND ）
 
-![the-band-menu](/assets/images/malahiteam/the-band-menu.png)
+![the-band-menu](/images/malahiteam/the-band-menu.png)
 
 BAND 菜单用于保存和读取收音机的设置。
 
@@ -512,7 +512,7 @@ BAND 菜单用于保存和读取收音机的设置。
 
 ### 监听已存频点
 
-![monitoring-memory-slots](/assets/images/malahiteam/monitoring-memory-slots.png)
+![monitoring-memory-slots](/images/malahiteam/monitoring-memory-slots.png)
 
 触摸 ``BAND`` 菜单中的 ``MONITOR SETTING`` 图标就可以进入频道监听模式。它可以让你监听所选的存储点的活动。
 
@@ -530,7 +530,7 @@ BAND 菜单用于保存和读取收音机的设置。
 
 ### 监听已存频点组
 
-![monitoring-groups-of-memory-slots](/assets/images/malahiteam/monitoring-groups-of-memory-slots.png)
+![monitoring-groups-of-memory-slots](/images/malahiteam/monitoring-groups-of-memory-slots.png)
 
 孔雀石收音机提供了 4 组储存库，它们可以相互之间与主监听器分开监听，这些储存库被称为「子监听器」。可以通过点击主监听器屏幕上的 ``SUBMON 1-4`` 图标进入。
 

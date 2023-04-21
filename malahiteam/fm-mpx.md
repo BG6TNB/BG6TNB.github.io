@@ -23,7 +23,7 @@ tag:
 
 FM MPX 界面如下图所示：
 
-![fm-mpx-screen](/assets/images/malahiteam/fm-mpx-screen.png)
+![fm-mpx-screen](/images/malahiteam/fm-mpx-screen.png)
 
 ::: info 译者注
 武汉市的 FM 全部没有 RDS 信息，所以我的照片上面是空白的。
@@ -49,11 +49,11 @@ FM MPX 是一种利用多路复用技术将立体声信号和 RDS 信息调制�
 
 接收机（ 收音机 ）通过 MPX 滤波器来解码 FM 信号。
 
-![mpx-spec](/assets/images/malahiteam/mpx-spec.gif)
+![mpx-spec](/images/malahiteam/mpx-spec.gif)
 
 MPX 标准如上图所示，主通道带宽 15KHz，包含 L+R 音频信息，如果接收机不支持 MPX 滤波器，或者接收机只有单声道，那么主通道的信息用于向下兼容。
 
-![fm_broadcasting](/assets/images/malahiteam/fm_broadcasting.gif)
+![fm_broadcasting](/images/malahiteam/fm_broadcasting.gif)
 
 19KHz 的位置有一个引导信号（ Pilot ），23KHz-53KHz 包含 L-R 的差分信号，中心位置 38KHz（ 正好是引导信号的 2倍 ），立体声解码规则如下：
 

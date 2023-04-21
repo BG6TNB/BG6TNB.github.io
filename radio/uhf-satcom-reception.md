@@ -8,7 +8,7 @@ tag:
 
 # {{ $frontmatter.title }}
 
-![](/assets/images/radio/uhf-satcom-reception/airspy2.jpg)
+![](/images/radio/uhf-satcom-reception/airspy2.jpg)
 
 FLTSATCOM 是美国海军的一个卫星通信系统，它被用于海军的舰艇、潜艇、飞机和地面站之间的 UHF 无线电通信。
 
@@ -32,13 +32,13 @@ FLTSATCOM 是美国海军的一个卫星通信系统，它被用于海军的舰�
 
 可以使用多种天线，最受欢迎的是八木天线和 Turnstile's 天线。
 
-![](/assets/images/radio/uhf-satcom-reception/1.png)
+![](/images/radio/uhf-satcom-reception/1.png)
 
 来自 [Scannerforum.nl](https://www.scannerforum.nl/index.php?topic=30089) 设计的八木天线：
 
-![](/assets/images/radio/uhf-satcom-reception/Satcom_Yagi.jpg)
+![](/images/radio/uhf-satcom-reception/Satcom_Yagi.jpg)
 
-![](/assets/images/radio/uhf-satcom-reception/turnstile255mhz.jpg)
+![](/images/radio/uhf-satcom-reception/turnstile255mhz.jpg)
 
 Some Turnstile examples:
 
@@ -50,7 +50,7 @@ Some Turnstile examples:
 
 位于西经 15.5 度的 FLTSATCOM 8/USA-46 正在使用 Fleetsat Bravo 计划波段。
 
-![](/assets/images/radio/uhf-satcom-reception/milsatcom.jpg)
+![](/images/radio/uhf-satcom-reception/milsatcom.jpg)
 
 [http://www.satellitenwelt.de/uhfmilsat.htm#Positionen](http://www.satellitenwelt.de/uhfmilsat.htm#Positionen)
 
@@ -62,7 +62,7 @@ Some Turnstile examples:
 
 ## SDR 接收机
 
-![](/assets/images/radio/uhf-satcom-reception/airspy.png)
+![](/images/radio/uhf-satcom-reception/airspy.png)
 
 AirSpy R2 SDR 接收机应该可以正常接收卫星通信。
 
@@ -70,17 +70,17 @@ AirSpy R2 SDR 接收机应该可以正常接收卫星通信。
 
 [SDRSharp](https://airspy.com/download/) 是迄今为止用于操作卫星窄带通讯模式的最佳 SDR 软件。
 
-![](/assets/images/radio/uhf-satcom-reception/sshot-4.jpg)
+![](/images/radio/uhf-satcom-reception/sshot-4.jpg)
 
-![](/assets/images/radio/uhf-satcom-reception/sshot-2.jpg)
+![](/images/radio/uhf-satcom-reception/sshot-2.jpg)
 
-![](/assets/images/radio/uhf-satcom-reception/sshot-3.jpg)
+![](/images/radio/uhf-satcom-reception/sshot-3.jpg)
 
 Milstar 卫星发射一种绰号为「waterdripper」的数字信号。
 
 信号位于 243.785 和 243.825MHz 之间，它在光谱中是可见的。
 
-![](/assets/images/radio/uhf-satcom-reception/sshot-1.jpg)
+![](/images/radio/uhf-satcom-reception/sshot-1.jpg)
 
 舰队广播通过 SATCOM 卫星在 250.450/550/650 MHz 采用 16 频道 75dB 多路传输。
 

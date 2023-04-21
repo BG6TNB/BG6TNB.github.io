@@ -17,7 +17,7 @@ PortaPack 支持的功能由所搭载的具体固件所决定，下面将逐一�
 
 ## portapack-hackrf
 
-![](/assets/images/hackrf/portapack-hackrf-h1.png)
+![](/images/hackrf/portapack-hackrf-h1.png)
 
 随着 PortaPack H1 发布的初代 PortaPack 固件。
 
@@ -31,7 +31,7 @@ PortaPack H1 使 HackRF One 软件定义的无线电变得便携。它增加了�
 
 ## portapack-havoc
 
-![](/assets/images/hackrf/portapack-havoc-screens.png)
+![](/images/hackrf/portapack-havoc-screens.png)
 
 Havoc 是基于 portapack-hackrf 固件的 fork 版本，在 portapack-hackrf 固件的基础上进行二次开发，增加了一堆功能（ 见下文 ），并且除了 RX 功能外，还增加了许多 TX 功能。
 
@@ -45,7 +45,7 @@ Havoc 是基于 portapack-hackrf 固件的 fork 版本，在 portapack-hackrf �
 
 目前 Havoc 固件支持的功能可以看菜单列表，其中绿色代表已经开发完成；黄色代表能用但缺少功能；灰色代表有开发计划（ 不过目前这个项目已经在 2020/06/25 转为归档了，后续不再进行开发了 ）。
 
-![](/assets/images/hackrf/portapack-havoc-list.png)
+![](/images/hackrf/portapack-havoc-list.png)
 
 ::: info 仓库地址
 [https://github.com/furrtek/portapack-havoc](https://github.com/furrtek/portapack-havoc)
@@ -53,7 +53,7 @@ Havoc 是基于 portapack-hackrf 固件的 fork 版本，在 portapack-hackrf �
 
 ## portapack-havoc-modified
 
-![](/assets/images/hackrf/portapack-havoc-modified.png)
+![](/images/hackrf/portapack-havoc-modified.png)
 
 这个版本是国内开发者邵大基于 Havoc 固件 fork 后继续进行开发的版本，在 Havoc 固件的基础上又继续增加了一堆功能，并且直到现在仍然保持高质量的更新。
 
@@ -81,11 +81,11 @@ Havoc 是基于 portapack-hackrf 固件的 fork 版本，在 portapack-hackrf �
 
 Mayhem 是又一个基于 Havoc 固件 fork 的版本，目前仍然保持更新。
 
-![](/assets/images/hackrf/portapack-mayhem.png)
+![](/images/hackrf/portapack-mayhem.png)
 
 Mayhem 固件一大特点是改进了 Havoc 的 UI 和字体，各个功能的细节打磨的也不错，使用起来更加直观和舒适。
 
-![](/assets/images/hackrf/portapack-mayhem-ui-change.png)
+![](/images/hackrf/portapack-mayhem-ui-change.png)
 
 Mayhem 固件在 Havoc 的基础上又增加了不少功能，功能丰富度方面虽然不如邵大版本，但考虑到邵大固件是针对自研 PortaPack H3 开发的，所以 Mayhem 也是目前 PortaPack H1、H2 的主流固件。
 
