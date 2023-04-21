@@ -105,3 +105,7 @@ dist
 
 # macOS
 .DS_Store
+
+# vitepress
+.vitepress/dist
+.vitepress/cache
