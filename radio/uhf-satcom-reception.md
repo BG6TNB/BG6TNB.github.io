@@ -4,6 +4,7 @@ description: 美国海军上一代 UHF 同步卫星通讯系统
 tag:
     - FLTSATCOM
     - SatCom
+    - 翻译
 ---
 
 # {{ $frontmatter.title }}
