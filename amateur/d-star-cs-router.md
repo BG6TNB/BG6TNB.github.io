@@ -1,6 +1,7 @@
 ---
 title: D-Star 呼号路由系统
 description: D-Star 基础概念 & 使用方式介绍
+date: 2023/04/20
 tag:
     - D-Star
 ---

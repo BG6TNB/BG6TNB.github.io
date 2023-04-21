@@ -1,6 +1,7 @@
 ---
 title: 飞鱼版孔雀石收音机 DSP2 常见问题
 description: 飞鱼版孔雀石收音机 DSP2 常见问题
+date: 2023/02/24
 tag:
     - Malahiteam
     - Receiver

@@ -1,6 +1,7 @@
 ---
 title: 孔雀石收音机中文说明书
 description: 孔雀石收音机中文说明书
+date: 2023/02/20
 tag:
     - Malahiteam
     - Receiver

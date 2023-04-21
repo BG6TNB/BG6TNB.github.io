@@ -1,6 +1,7 @@
 ---
 title: 孔雀石收音机 FM MPX 界面介绍
 description: 孔雀石收音机 FM MPX 界面介绍
+date: 2023/02/24
 tag:
     - Malahiteam
     - Receiver
