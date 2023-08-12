@@ -1,26 +1,25 @@
 {
-    "name": "bg6tnb.github.io",
-    "version": "1.0.0",
-    "description": "The content of this project itself is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).",
-    "main": "index.js",
-    "scripts": {
-        "dev": "vitepress dev",
-        "build": "vitepress build",
-        "preview": "vitepress preview"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/BG6TNB/BG6TNB.github.io.git"
-    },
-    "author": "BG6TNB",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/BG6TNB/BG6TNB.github.io/issues"
-    },
-    "homepage": "https://github.com/BG6TNB/BG6TNB.github.io#readme",
-    "devDependencies": {
-        "@giscus/vue": "^2.2.6",
-        "vitepress": "^1.0.0-alpha.46",
-        "vue": "^3.2.47"
-    }
+  "name": "bg6tnb.github.io",
+  "version": "1.0.0",
+  "description": "BG6TNB's blog.",
+  "main": "index.md",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BG6TNB/BG6TNB.github.io.git"
+  },
+  "author": "BG6TNB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BG6TNB/BG6TNB.github.io/issues"
+  },
+  "homepage": "https://github.com/BG6TNB/BG6TNB.github.io#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.4"
+  }
 }

@@ -1,14 +1,16 @@
+// https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import DefaultTheme from 'vitepress/theme'
-import Comments from './Comments.vue'
-import DisablePiracy from './DisablePiracy.vue'
+import Theme from 'vitepress/theme'
+import './style.css'
 
 export default {
-    ...DefaultTheme,
-    Layout() {
-        return h(DefaultTheme.Layout, null, {
-            'doc-after': () => h(Comments),
-            'layout-top': () => h(DisablePiracy)
+    extends: Theme,
+    Layout: () => {
+        return h(Theme.Layout, null, {
+            // https://vitepress.dev/guide/extending-default-theme#layout-slots
         })
+    },
+    enhanceApp({ app, router, siteData }) {
+        // ...
     }
 }

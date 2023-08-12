@@ -109,3 +109,7 @@ dist
 # vitepress
 .vitepress/dist
 .vitepress/cache
+
+# old document
+old
+.old
