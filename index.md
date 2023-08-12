@@ -1,3 +1,7 @@
+---
+comments: false
+---
+
 <ul>
     <li v-for="post of posts">
         <a :href="post.url">[{{ post.frontmatter.date }}]{{ post.frontmatter.title }}</a>

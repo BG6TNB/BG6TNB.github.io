@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/BG6TNB/BG6TNB.github.io#readme",
   "devDependencies": {
+    "@giscus/vue": "^2.3.0",
     "vitepress": "^1.0.0-rc.4"
   }
 }
