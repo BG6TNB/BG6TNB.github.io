@@ -1,9 +1,10 @@
 ---
 title: About
 comments: false
+lastUpdated: false
 ---
 
-# About
+# {{ $frontmatter.title }}
 
 ## 关于本站点
 

@@ -1,9 +1,10 @@
 ---
 title: Archive
 comments: false
+lastUpdated: false
 ---
 
-# Archive
+# {{ $frontmatter.title }}
 
 <ul>
     <li v-for="post of posts">

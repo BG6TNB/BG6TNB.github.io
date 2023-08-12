@@ -1,9 +1,10 @@
 ---
 title: Tags
 comments: false
+lastUpdated: false
 ---
 
-<h1 style="margin-bottom: 32px">Tags</h1>
+<h1 style="margin-bottom: 32px">{{ $frontmatter.title }}</h1>
 
 <div class="tag-container" style="display: flex;flex-wrap: wrap;">
     <div class="tag" style="border: 1px solid gray;border-radius: 8px;margin: 4px;padding: 2px 8px;cursor: pointer;" v-for="tag in unselectedTags" :key="tag" @click="clickTag(tag)">

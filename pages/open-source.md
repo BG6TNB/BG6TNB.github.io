@@ -1,4 +1,10 @@
-# Open Source
+---
+title: Open Source
+comments: false
+lastUpdated: false
+---
+
+# {{ $frontmatter.title }}
 
 ## [Arduboy Shield FX](https://github.com/BG6TNB/Arduboy-Shield-FX)
 

@@ -1,9 +1,10 @@
 ---
 title: Series
 comments: false
+lastUpdated: false
 ---
 
-# Series
+# {{ $frontmatter.title }}
 
 <template v-for="[title, section] in series">
     <h2>{{title}}</h2>
