@@ -11,10 +11,8 @@ PortaPack 有许多不同的版本，虽然名字叫做 H1、H2、H3，但是它
 
 ## H1
 
-<Gallery :urls="[
-    '/images/hackrf/portapack-h1-front.png',
-    '/images/hackrf/portapack-h1-back.png'
-]" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h1-front.png" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h1-back.png" />
 
 主要特征：2.4 寸 LCD、旋转开关、带有 RTC
 
@@ -27,10 +25,8 @@ PortaPack 有许多不同的版本，虽然名字叫做 H1、H2、H3，但是它
 
 ## H2
 
-<Gallery :urls="[
-    '/images/hackrf/portapack-h2-front.png',
-    '/images/hackrf/portapack-h2-back.png'
-]" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-front.png" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-back.png" />
 
 主要特征：3.2 寸 LCD、旋钮 + 十字键、带有 RTC、带有电池
 
@@ -38,7 +34,7 @@ H2 可以完全摆脱外资供电，让 PortaPack 完全独立使用。我不知
 
 ## H2+
 
-<Gallery :urls="['/images/hackrf/portapack-h2-R1.png']" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-R1.png" />
 
 主要特征：3.2 寸 LCD、旋钮 + 十字键、带有 RTC、带有电池
 
@@ -53,7 +49,7 @@ H2 可以完全摆脱外资供电，让 PortaPack 完全独立使用。我不知
 
 ## H2 Plus
 
-<Gallery :urls="['/images/hackrf/portapack-h2-plus-front.png']" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-plus-front.png" />
 
 主要特征：3.2 寸 LCD、旋转开关、带有 RTC、带有电池
 
@@ -66,5 +62,3 @@ H2 可以完全摆脱外资供电，让 PortaPack 完全独立使用。我不知
 早期邵大设计了登山板，上面集成了 ABC 传感器，后来将登山板与 PortaPack 合并了，也就是现在的 H3。
 
 H3 是 2.8 寸 LCD，到了 H3 SE 屏幕增大到 3.2 寸，不过机身尺寸也一起增大了，到了 H3 MINI 保留了全部功能的前提下成功瘦身到原来的尺寸。
-
-<!-- <script setup>import Gallery from '/.vitepress/theme/Gallery.vue'</script> -->

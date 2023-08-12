@@ -8,3 +8,6 @@ tag: D-Star       # 文章标签，支持 String 和 Array 两种格式，用于
 # Example
 
 本页面用于说明扩展的 Frontmatter 参数。
+
+<!-- 并列显示图片 -->
+<img style="height:300px;display:inline-block;" src="" />

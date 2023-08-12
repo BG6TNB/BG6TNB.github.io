@@ -31,10 +31,8 @@ Furrtek 本人也是开源精神的拥趸，所以他开发的功能也都继续
 
 此时的 PortaPack 虽然可以脱离电脑使用，由于没有内置的电池，所以还需要随身携带一个充电宝供电，对于单机独立使用来说，还是略微有点麻烦，于是有人想到了给 PortaPack 加上一块电池，此时 PortaPack H2 出现了，H2 的设计者不明。但是 H2 并没有根据 GPL 协议开放原理图，Furrtek 对 H2 是十分厌恶的，认为违反了开源精神。
 
-<Gallery :urls="[
-    '/images/hackrf/portapack-h2-front.png',
-    '/images/hackrf/portapack-h2-back.png'
-]" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-front.png" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-back.png" />
 
 ## 来自中国的开发者
 
@@ -98,10 +96,8 @@ eried 还在邵大和邵大朋友设计的 H3 / H2 Plus 后面的兼容性一栏
 
 现在邵大还在继续写代码，最近又增加了火车预警，并且改进了不少以前的功能。
 
-<Gallery :urls="[
-    '/images/hackrf/portapack-havoc-modified-train-detector-en.png',
-    '/images/hackrf/portapack-havoc-modified-train-detector-cn.png'
-]" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-havoc-modified-train-detector-en.png" />
+<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-havoc-modified-train-detector-cn.png" />
 
 有趣的是嘴上说着支持开源的 eried 和 jLynx，无非是利用开源项目的名气为自己捞取好处，他们对项目本身并没有什么实质性的贡献（ 优化界面我承认是贡献，但是对于这个项目来说，UI 并不是最重要的 ），只是在借开源的名头搬运别人的代码，欺负邵大在英文世界没有知名度，事实上英文世界的 Furrtek 也是被他们一点一点逼走的，他们但凡是对 Furrtek 多点尊重，都不至于是现在这个下场。更何况自己用的还是不开源的 PortaPack H2 版本，如果是真心支持开源项目，就应该用最初的 PortaPack H1 版本。
 
@@ -118,5 +114,3 @@ eried 还在邵大和邵大朋友设计的 H3 / H2 Plus 后面的兼容性一栏
 **为大众谋福利者，不可使其孤军奋战。**
 
 **为自由开路者，不可使其困顿于荆棘。**
-
-<!-- <script setup>import Gallery from '/.vitepress/theme/Gallery.vue'</script> -->
