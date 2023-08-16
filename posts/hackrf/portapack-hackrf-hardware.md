@@ -11,8 +11,8 @@ PortaPack 有许多不同的版本，虽然名字叫做 H1、H2、H3，但是它
 
 ## H1
 
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h1-front.png" />
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h1-back.png" />
+![](/images/hackrf/portapack-h1-front.png){style="width:50%;display:inline-block;"}
+![](/images/hackrf/portapack-h1-back.png){style="width:50%;display:inline-block;"}
 
 主要特征：2.4 寸 LCD、旋转开关、带有 RTC
 
@@ -25,8 +25,8 @@ PortaPack 有许多不同的版本，虽然名字叫做 H1、H2、H3，但是它
 
 ## H2
 
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-front.png" />
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-back.png" />
+![](/images/hackrf/portapack-h2-front.png){style="width:50%;display:inline-block;"}
+![](/images/hackrf/portapack-h2-back.png){style="width:50%;display:inline-block;"}
 
 主要特征：3.2 寸 LCD、旋钮 + 十字键、带有 RTC、带有电池
 
@@ -34,7 +34,7 @@ H2 可以完全摆脱外资供电，让 PortaPack 完全独立使用。我不知
 
 ## H2+
 
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-R1.png" />
+![](/images/hackrf/portapack-h2-R1.png){style="width:50%;display:inline-block;"}
 
 主要特征：3.2 寸 LCD、旋钮 + 十字键、带有 RTC、带有电池
 
@@ -49,7 +49,7 @@ H2 可以完全摆脱外资供电，让 PortaPack 完全独立使用。我不知
 
 ## H2 Plus
 
-<img style="height:300px;display:inline-block;" src="/images/hackrf/portapack-h2-plus-front.png" />
+![](/images/hackrf/portapack-h2-plus-front.png){style="width:50%;display:inline-block;"}
 
 主要特征：3.2 寸 LCD、旋转开关、带有 RTC、带有电池
 
