@@ -2,7 +2,9 @@
 title: FLTSATCOM - UHF SatCom Reception
 description: 美国海军上一代 UHF 同步卫星通讯系统
 date: 2023/04/20
-tag: Radio
+tag:
+    - 无线电
+    - 卫星
 ---
 
 # {{ $frontmatter.title }}

@@ -1,7 +1,6 @@
 ---
-title: VMware Fusion 13 安装 Windows 11 ARM 笔记
-description: VMware Fusion 13 安装 Windows 11 ARM 笔记
 date: 2023/04/20
+title: VMware Fusion 13 安装 Windows 11 ARM 笔记
 tag: Memo
 index: false
 ---
