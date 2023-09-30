@@ -21,7 +21,7 @@ Grove 整个思路非常 nice，虽然溢价较高，但是用起来真心方便
 等方案全部验证完之后我会在 GitHub 全部开源，敬请期待。
 :::
 
-## MLX90640 热成像传感器
+## MLX90640 热成像传感器 <Badge type="tip" text="已验证" />
 
 ![](/public/images/diy/grove-i2c-thermal.png)
 
@@ -47,7 +47,7 @@ MLX90640 可以提供 32*24 分辨率的分区温度信息，无论是日常测�
 
 另一方面两侧根据排列组合提供了 4 种不同的接口，你可以用于连接 I2C 的 OLED 显示器，虽然可能不是非常美观，但是用起来挺方面的，未来我会考虑单独画 OLED 的模块来使用。
 
-## 双按键模块
+## 双按键模块 <Badge type="tip" text="已验证" />
 
 ![](/public/images/diy/grove-dual-button.png)
 
