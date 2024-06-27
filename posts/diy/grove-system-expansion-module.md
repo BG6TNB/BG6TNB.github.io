@@ -23,7 +23,7 @@ Grove 整个思路非常 nice，虽然溢价较高，但是用起来真心方便
 
 ## MLX90640 热成像传感器 <Badge type="tip" text="已验证" />
 
-![](/public/images/diy/grove-i2c-thermal.png)
+![](/images/diy/grove-i2c-thermal.png)
 
 MLX90640 可以提供 32*24 分辨率的分区温度信息，无论是日常测量温度还是检查 PCB 板的发热情况都十分方便。
 
@@ -33,7 +33,7 @@ MLX90640 可以提供 32*24 分辨率的分区温度信息，无论是日常测�
 
 ## AS3935 雷电传感器
 
-![](/public/images/diy/grove-i2c-as3935.png)
+![](/images/diy/grove-i2c-as3935.png)
 
 雷电传感器很有意思，可以检测到半径 40KM 以内的雷电活动。由于 AS3935 采用 QFN 封装，个人在家不太好操纵，成功率堪忧，所以我选择的方案是对 CJMCU-3935 进行二次封装的方案。
 
@@ -41,7 +41,7 @@ MLX90640 可以提供 32*24 分辨率的分区温度信息，无论是日常测�
 
 ## I2C 扩展模块
 
-![](/public/images/diy/grove-i2c-extend-board.png)
+![](/images/diy/grove-i2c-extend-board.png)
 
 这是一个非常简单的方案，只是将 I2C 进行了简单的扩展，以适应更多设备，但如果你的设备有地址冲突的话，这个模块是无法使用的，你需要的是 I2C HUB。
 
@@ -49,7 +49,7 @@ MLX90640 可以提供 32*24 分辨率的分区温度信息，无论是日常测�
 
 ## 双按键模块 <Badge type="tip" text="已验证" />
 
-![](/public/images/diy/grove-dual-button.png)
+![](/images/diy/grove-dual-button.png)
 
 简单的外部双按键模块，拿在手里捏着玩挺解压的。
 
