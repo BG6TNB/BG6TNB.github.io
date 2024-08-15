@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import container from 'markdown-it-container'
 
 export default defineConfig({
     lang: 'zh-CN',
@@ -49,5 +50,31 @@ export default defineConfig({
         'pages/:page': ':page',
         'posts/:post': ':post',
         'posts/:series/:post': ':series/:post'
+    },
+
+    markdown: {
+        preConfig: md => {
+            md.use(container, 'translator', {
+
+                validate: (params) => {
+                    return params.trim().indexOf('translator') > -1
+                },
+
+                render: (tokens, idx) => {
+                    if (tokens[idx].nesting === 1) {
+
+                        const closeIdx = tokens.findIndex((token, index) => (index > idx && token.type === 'container_translator_close'))
+                        const content = tokens.slice(idx, closeIdx).filter(token => token.content).map(token => md.render(token.content))
+                        const commentIndex = content.findIndex(str => str.indexOf('<!--') > -1)
+
+                        const original = content.slice(0, commentIndex)
+                        const translation = content.slice((commentIndex + 1), content.length)
+
+                        return `<details class="translator"><summary>${translation.join('')}</summary>`
+                    }
+                    return '</details>'
+                }
+            })
+        }
     }
 })

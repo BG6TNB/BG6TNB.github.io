@@ -21,6 +21,7 @@
   "homepage": "https://github.com/BG6TNB/BG6TNB.github.io#readme",
   "devDependencies": {
     "@giscus/vue": "^3.0.0",
-    "vitepress": "^1.2.2"
+    "vitepress": "^1.2.2",
+    "markdown-it-container": "^4.0.0"
   }
 }
