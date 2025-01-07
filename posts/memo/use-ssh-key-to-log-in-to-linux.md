@@ -1,5 +1,5 @@
 ---
-date: 2024/01/07
+date: 2025/01/07
 title: 使用 SSH Key 登录 Linux
 description: 一键登录，无需密码
 tag:
