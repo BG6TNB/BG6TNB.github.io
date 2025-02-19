@@ -3,6 +3,7 @@ date: 2024/10/15
 title: 树莓派 Zero 2 通过 USB 进行 SSH 链接
 description: 市面上大部分是基于 Pi Zero 的教程，然而这些教程是无法直接在 Pi Zero 2 上生效的，还需要一点额外的步骤。
 tag:
+    - 快速笔记
     - 树莓派
     - Raspberry Pi
     - Raspberry Pi Zero 2
