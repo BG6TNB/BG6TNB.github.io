@@ -16,7 +16,7 @@ tag:
 
 首先打开官方仓库 [arduino-esp32](https://github.com/espressif/arduino-esp32)，选择你需要的版本号（ Git Tag ），然后点击右边绿色 ``Code`` 选择 ``Download ZIP``。
 
-::: tips
+::: tip 提示
 不要从 Arduino IDE 板管理器的地址下载，你如果从这个地址下载则需要手动安装全部依赖（ 截止 3.1.3 版本需要下载 10 个 ）
 :::
 
