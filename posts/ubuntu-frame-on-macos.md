@@ -4,6 +4,8 @@ title: 在 macOS 上模拟 Ubuntu Frame
 description: 使用虚拟机运行 Ubuntu Frame 以提高开发效率
 tag:
     - 快速笔记
+    - macOS
+    - UTM
     - Linux
     - Ubuntu
     - Ubuntu Frame
